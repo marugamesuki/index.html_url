@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ユーザー設定</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>ユーザー設定</h1>
+        </header>
+        <main>
+            <div class="container">
+                <h1>年齢と体重を入力してください</h1>
+                <input type="number" id="ageInput" placeholder="年齢を入力" min="0" max="120">
+                <input type="number" id="weightInput" placeholder="体重を入力 (kg)" min="0" max="300">
+                <button onclick="displayInputs()">入力を表示</button>
+                <div class="result" id="resultDisplay"></div>
+            </div> 
+        </main>
+        <footer>
+            <small>(C)2024 Seventh</small>
+        </footer>
+        <script src="usersetting.js"></script>
+    </body>
+</html>

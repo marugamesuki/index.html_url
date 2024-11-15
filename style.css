@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body{
+    background-color: aliceblue;
+}
+
+header{
+    max-width: 1100px;
+    margin: 0 auto;    
+    text-align: center;
+    color: black;
+}
+
+main{
+    text-align: center;
+    color: black;
+}
+
+footer{
+    text-align: center;
+    margin: 100px auto;
+    color: black;
+}
+
+.item p{
+    font-weight: bold;
+}
+
+.item img{
+    width: 300px;
+    height: 300px;
+}
+
+.contents{
+    display: grid;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
